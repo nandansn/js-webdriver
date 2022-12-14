@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-01T10:16:57.293Z",
-    "end": "2022-12-01T10:17:06.559Z",
-    "duration": 9266,
+    "start": "2022-12-01T10:30:29.009Z",
+    "end": "2022-12-01T10:30:38.328Z",
+    "duration": 9319,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "66063b66-e983-43ce-a218-e5315fe00244",
+      "uuid": "a8adc353-14bd-4784-bc65-52cea3674c2b",
       "title": "",
       "fullFile": "/Users/nrangasa/personal/js-webdriver/test/testOne.js",
       "file": "/test/testOne.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d9e077ef-cda5-4dde-a8a5-e858ff350395",
+          "uuid": "cd2b479d-02b4-4c02-a6bf-b06084b6930d",
           "title": "test suite",
           "fullFile": "/Users/nrangasa/personal/js-webdriver/test/testOne.js",
           "file": "/test/testOne.js",
@@ -38,29 +38,29 @@
               "title": "test",
               "fullTitle": "test suite test",
               "timedOut": false,
-              "duration": 9257,
+              "duration": 9309,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "let driver = await new Builder().forBrowser(\"chrome\").build();\nawait driver.get(\"http://google.com\");\nawait driver.findElement(By.name('q')).sendKeys('amazon');\nawait driver.findElement(By.name(\"btnK\")).submit()\ndriver.close()",
+              "code": "let driver = await new Builder().forBrowser(\"chrome\").build();\nawait driver.get(\"http://google.com\");\nawait driver.findElement(By.name('q')).sendKeys('amazon');\nawait driver.findElement(By.name(\"btnK\")).submit()\ndriver.wait\ndriver.close()",
               "err": {},
-              "uuid": "32e68bfc-ded8-4728-ad28-f0caf32aa41e",
-              "parentUUID": "d9e077ef-cda5-4dde-a8a5-e858ff350395",
+              "uuid": "4aaaa3e7-09f2-4b14-9bda-fe0f9df2e8ab",
+              "parentUUID": "cd2b479d-02b4-4c02-a6bf-b06084b6930d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "32e68bfc-ded8-4728-ad28-f0caf32aa41e"
+            "4aaaa3e7-09f2-4b14-9bda-fe0f9df2e8ab"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 9257,
+          "duration": 9309,
           "root": false,
           "rootEmpty": false,
           "_timeout": 10000
